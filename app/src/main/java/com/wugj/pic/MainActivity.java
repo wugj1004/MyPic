@@ -69,7 +69,7 @@ public class MainActivity extends Activity{
 
         WebSettings websettings = mWebView.getSettings();
         websettings.setJavaScriptEnabled(true);
-        websettings.setUserAgentString(websettings.getUserAgentString()+"appHaozu");
+        //websettings.setUserAgentString(websettings.getUserAgentString()+"appHaozu");
         websettings.setCacheMode(WebSettings.LOAD_NO_CACHE);
 
         mWebView.setWebViewClient(new WebViewClient() {
